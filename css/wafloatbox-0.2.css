@@ -1,0 +1,25 @@
+/* MIT License */
+/* Copyright (c) 2019 Maykheld (http://www.maykheld.com) */
+
+.myk-ava,.myk-btn,.myk-list,.myk-name,.myk-panel,.myk-wa-icon,.myk-who,.myk-number,
+.myk-panelhead,.myk-wa-icon,.myk-paneltitle{margin: 0;padding: 0; font-family: Arial, Helvetica, sans-serif}
+
+.myk-btn{position: absolute;right: 20px;bottom: 20px;background-color: #25D366;border-radius: 50%;display: inline-block;padding: 10px;height: 30px;box-shadow: 3px 3px 5px #cccccc; cursor: pointer;transition: all 0.5s;margin: 0;z-index: 999;}
+.myk-btn:hover{opacity: 0.7}
+.myk-btn img{width: 30px}
+
+.myk-panel{position: absolute;right: 30px;bottom:100px;background-color: #ECE5DD;width: 300px; height:0px;box-shadow: 0px 0px 10px #075E54;overflow-y: hidden;border-radius: 5px; transition: all 0.5s ease-out; }
+.myk-panel .myk-list{background-color: #ffffff;overflow: hidden;display: block; padding: 20px 10px;color:#333; text-decoration: none; font-family: Arial, Helvetica, sans-serif;border-bottom: 2px solid #cccccc}
+.myk-panel .myk-ava {width: 40px;float: left;margin-right:20px }
+.myk-panelhead{background-color: #25D366;text-align: center;color: white;height: 100px;}
+
+.myk-paneltitle{font-weight: lighter}
+.myk-show{height:400px}
+.myk-panelbody{overflow-y: scroll;height: calc(100% - 100px)}
+
+@media only screen and (max-width: 400px) {
+    .myk-panel{width: 100%;right: 0;top: 0;bottom: 0;}
+    .myk-panel.myk-show{height: 100%}
+}
+.myk-close{display: block;background-color: #075E54;cursor: pointer;opacity: 0.4;text-align: center;width: 50px;transition: ease all 0.3s;overflow: hidden;}
+.myk-close:hover{opacity: 0.6;}
