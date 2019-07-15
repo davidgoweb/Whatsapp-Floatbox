@@ -24,7 +24,7 @@ jQuery.fn.extend({
         $('.myk-item').each(function(){
         //this wrapped in jQuery will give us the current .letter-q div
         $('.myk-panelbody').append(`
-        <a href="https://wa.me/${$(this).data('wanumber')}?text=I'm%20inquiring%20about%20the%20apartment%20listing" class="myk-list">
+        <a target='_blank' href="https://wa.me/${$(this).data('wanumber')}?text=I'm%20inquiring%20about%20the%20apartment%20listing" class="myk-list">
             <img src="${$(this).data('waava')}" class="myk-ava">
             <div class="myk-number">
                 <p class="myk-who"><b>${$(this).data('wadivision')}</b></p>
