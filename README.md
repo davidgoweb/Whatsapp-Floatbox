@@ -5,9 +5,6 @@ Put a whatsapp floating chat box on your website.
 
 This project is my own base template that can easily customized. .
 
-## Example
-View this page for example <a href="http://maykheld.com/page/wafloatbox.html">DEMO</a>
-
 ## Usege
 
 ### Links and Scripts
