@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+# Whatsapp Floatbox
 
-You can use the [editor on GitHub](https://github.com/davidgoweb/Whatsapp-Floatbox/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A lightweight responsive whatsapp api chatbox for your website. Easy to use.
+Put a whatsapp floating chat box on your website.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This project is my own base template that can easily customized. .
 
-### Markdown
+## Usage
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Links and Scripts
+```
+<link rel='stylesheet' type='text/css' media='screen' href='css/wafloatbox-0.2.min.css'>
+<script src='js/jquery-3.4.1.min.js'></script>
+<script src='js/wafloatbox-0.2.js'></script>
+```
+### HTML Markup
+ 
+```
+    <div class="myk-wa">
+        <div class="myk-item" data-wanumber="62xxxxxxxx" data-waname="Jonny" data-wadivision="Technician" data-waava="images/user.png"></div>
+        <div class="myk-item" data-wanumber="92xxxxxxx" data-waname="Rachel" data-wadivision="Sales" data-waava="images/user.png"></div>
+        <!-- few more -->
+    </div>
+```
+### Initializing
+```
+<script>
+    $(document).ready(function(){
+        $(".myk-wa").WAFloatBox();
+    });
+</script>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## License
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/davidgoweb/Whatsapp-Floatbox/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+This project is under MIT License
+That's it.
