@@ -1,5 +1,5 @@
 /* MIT License */
-/* Copyright (c) 2019 Maykheld (http://www.maykheld.com) */
+/* Copyright (c) 2019 Maykheld (http://www.davidgoweb.com) */
 jQuery.fn.extend({
     WAFloatBox: function () {
         var a = $(this)
