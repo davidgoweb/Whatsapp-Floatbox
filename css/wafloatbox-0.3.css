@@ -4,7 +4,7 @@
 .myk-ava,.myk-btn,.myk-list,.myk-name,.myk-panel,.myk-wa-icon,.myk-who,.myk-number,
 .myk-panelhead,.myk-wa-icon,.myk-paneltitle{margin: 0;padding: 0; font-family: Arial, Helvetica, sans-serif}
 
-.myk-btn{position: absolute;right: 20px;bottom: 20px;background-color: #25D366;border-radius: 50%;display: inline-block;padding: 10px;height: 30px;box-shadow: 3px 3px 5px #cccccc; cursor: pointer;transition: all 0.5s;margin: 0;z-index: 999;}
+.myk-btn{position: absolute;right: 20px;bottom: 20px;background-color: #25D366;border-radius: 50%;display: inline-block;padding: 10px;box-shadow: 3px 3px 4px rgba(0,0,0,0.3); cursor: pointer;transition: all 0.5s;margin: 0;z-index: 999;}
 .myk-btn:hover{opacity: 0.7}
 .myk-btn img{width: 30px}
 
