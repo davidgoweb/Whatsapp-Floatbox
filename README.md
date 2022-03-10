@@ -18,7 +18,7 @@ This project is my own base template that can easily customized. .
 ```
     <div class="myk-wa">
         <div class="myk-item" data-wanumber="62xxxxxxxx" data-waname="Jonny" data-wadivision="Technician" data-waava="images/user.png"></div>
-        <div class="myk-item" data-wanumber="92xxxxxxx" data-waname="Rachel" data-wadivision="Sales" data-waava="images/user.png"></div>
+        <div class="myk-item" data-wanumber="92xxxxxxx" data-waname="Rachel" data-wadivision="Sales" data-waava="images/user.png" data-watext="I'm inquiring about the apartment listing"></div>
         <!-- few more -->
     </div>
 ```
